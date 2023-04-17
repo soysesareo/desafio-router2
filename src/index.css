@@ -1,0 +1,44 @@
+body {
+  text-align: center;
+}
+
+.active {
+  color: blueviolet;
+  text-decoration: none;
+}
+
+.undefined {
+  color: yellow;
+  text-decoration: none;
+}
+
+.nav {
+  background-color: rgb(164, 161, 161);
+  display: flex;
+  justify-content: space-between;
+  padding: 0 4% 0 4%;
+  align-items: center;
+  min-height: 45px;
+}
+
+.titulo {
+  margin-top: 3%;
+}
+
+.imagen-pokemon {
+  height: 300px;
+  margin: 50px;
+}
+
+.pokemon-nombre, h4, h5, .pokemon-caracteristicas{
+  color: rgb(163, 66, 66);
+}
+
+.pokemon-caracteristicas {
+font-size: 90%;
+}
+
+.pokemon-seleccionado {
+  height: 300px;
+  transition:all .5s ease-in-out;
+}
